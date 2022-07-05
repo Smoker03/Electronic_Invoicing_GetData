@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
 //@XmlRootElement(name = "Product_getDataXML")
 public class Product_getDataXML {
 //    @XmlElement(name = "name", required = true)
-//    private String name;
+    private String name;
 //    @XmlElement(name = "price", required = true)
 //    private double price;
 //    @XmlElement(name = "taxes", required = true)
@@ -34,7 +34,7 @@ public class Product_getDataXML {
     
 //    public Product_getDataXML(){}
 //    public Product_getDataXML(String name, double price, double taxes) {
-//        this.name = name;
+        this.name = name;
 //        this.price = price;
 //        this.taxes = taxes;
 //    }
